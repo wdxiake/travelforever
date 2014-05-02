@@ -10,7 +10,7 @@ class Page extends CI_Controller{
     public function __construct(){
         parent::__construct();
         $this->load->model('group_model');
-        $this->load->library('smarty');
+        $this->load->library('Smarty');
         $this->load->library('city');
     }
     private function handleParams($params){
