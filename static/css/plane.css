@@ -1,0 +1,13 @@
+.middle-title-order{
+	float:right;
+	font-size:14px;
+}
+.middle-title-order>a{
+	text-decoration:none;
+	color: #25AAB9;
+	margin-left:5px;
+}
+.middle-title-order>a:hover,.middle-title-order>a.selected{
+	text-decoration:none;
+	color:#FF7F29;
+}
