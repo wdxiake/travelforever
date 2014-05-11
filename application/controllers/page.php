@@ -36,7 +36,6 @@ class Page extends CI_Controller{
             $result['cityInfo']['from_city_url'] = "&from=".$params['from'];
             print_r(0);
         }else {
-            print_r(1);
             $result['cityInfo']['from_city'] = NULL;
             $result['cityInfo']['from_city_url'] = "";
             $result['cityInfo']['from_city_str'] = "全部";
@@ -53,7 +52,7 @@ class Page extends CI_Controller{
         return $result;
     }
     public function index(){
-        echo 1;
+        echo "服务器";
     }
     public function groups(){
         $get_params = $this->input->get();
